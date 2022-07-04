@@ -1,4 +1,6 @@
 # GeoPins
+![alt text](https://github.com/frapasti/GeoPins/Geopin_logo.jpg?raw=true)
+
 GeoPin is an android application built by Federico Girlanda, Andrea Turchet and Francesco Pasti for the 2020 course "Programming Embedded Devices" 
 of Professor Fantozzi from the University of Padova
 
