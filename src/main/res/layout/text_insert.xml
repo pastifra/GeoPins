@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TextInsert">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/title"
+        android:textColor="@color/dark_grey"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <EditText
+        android:id="@+id/commentTitleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="@string/your_comment_title"
+        android:autofillHints="@string/your_comment_title"
+        android:inputType="text"
+        android:textColor="@color/dark_grey"
+        android:textColorHint="@android:color/darker_gray"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/commentInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="150dp"
+        android:ems="10"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="32dp"
+        android:hint="@string/hint"
+        android:autofillHints="@string/hint"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:textColor="@color/dark_grey"
+        android:textColorHint="@android:color/darker_gray"
+        android:textAlignment="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:focusable="true"
+            android:onClick="doneMe"
+            android:background="@android:color/holo_blue_dark"
+            android:src="@drawable/ic_done"
+        />
+    </RelativeLayout>
+</LinearLayout>
