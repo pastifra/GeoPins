@@ -9,3 +9,6 @@ Just the apk is relased in the directory to protect sensitive data.
 The idea behind the application is to put pins with a title and a comment on the world map with a caviat: You can only place them if the GPS of your device is
 actually in that location!
 
+Here are some screenshot to have a rough idea of how's the app
+
+<img src="" width="48">
